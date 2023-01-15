@@ -15,16 +15,6 @@ fun main() {
 }
 
 
-inline fun doSome( lambda: (a: Int, b: Int) -> Int): Int = lambda.invoke(2,2)
-
-
-
-
-
-
-
-
-
 
 suspend fun getMovie() {}
 suspend fun getList() {}
