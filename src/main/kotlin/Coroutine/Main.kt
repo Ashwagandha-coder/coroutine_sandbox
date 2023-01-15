@@ -1,7 +1,6 @@
-import kotlinx.coroutines.CoroutineStart
-import kotlinx.coroutines.Job
-import kotlinx.coroutines.coroutineScope
-import kotlin.coroutines.coroutineContext
+package Coroutine
+
+import Coroutine.doSome
 
 fun main() {
 
