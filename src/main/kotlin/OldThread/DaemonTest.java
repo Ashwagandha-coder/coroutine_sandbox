@@ -16,8 +16,6 @@ public class DaemonTest {
 
     }
 
-
-
 }
 
 class Impl implements Runnable {
