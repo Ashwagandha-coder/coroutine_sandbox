@@ -19,7 +19,15 @@ public class CallTest {
 
     public void make() {
 
+        futureTask = new FutureTask(callable);
+        new Thread(futureTask).start();
 
+        try {
+            String str = futureTask.get().toString();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 
