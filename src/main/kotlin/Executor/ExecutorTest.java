@@ -24,7 +24,12 @@ public class ExecutorTest {
         Runnable runnable = () -> {
             System.out.println("Hello World");
         };
+
+        executor.execute(runnable);
+
     }
+
+
 
 
 }
