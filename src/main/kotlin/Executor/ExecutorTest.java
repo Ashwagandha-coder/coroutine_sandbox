@@ -5,10 +5,7 @@ import kotlinx.coroutines.ExecutorCoroutineDispatcher;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorCompletionService;
-import java.util.concurrent.ExecutorService;
+import java.util.concurrent.*;
 
 /**
  Пример использования Executor
@@ -44,7 +41,7 @@ public class ExecutorTest {
 
         callable = ExecutorTest::call;
 
-
+        executorService = Executors.newFixedThreadPool(2);
 
     }
 
