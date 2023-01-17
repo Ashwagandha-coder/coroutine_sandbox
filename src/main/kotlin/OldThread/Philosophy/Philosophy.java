@@ -1,4 +1,4 @@
-package OldThread;
+package OldThread.Philosophy;
 
 import java.util.concurrent.Semaphore;
 
