@@ -1,5 +1,9 @@
 package JMM;
 
+/**
+ Пример программы в которой будет всегда разная инициализации при использовании jcstrestest
+ */
+
 public class JMMReordiningSample {
 
     private int x;
