@@ -1,0 +1,4 @@
+package Android
+
+class AndroidTestClass {
+}
