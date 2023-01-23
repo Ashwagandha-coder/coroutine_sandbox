@@ -7,8 +7,8 @@ import kotlin.coroutines.resume
 class BaseSample {
 
     private val param: Int = 0
-
     private lateinit var continuation: Continuation<Any>
+    private var dispatchedContinuation: Any? = null
 
 
     suspend fun getSome() {
@@ -29,8 +29,8 @@ class BaseSample {
     }
 
     /**
-     Данный метод принимает continuation Интерфейс - который неявно принимают все suspend функции
-     В нем есть открытый api - это 2 методы и одно поле = context , resume, resumeWith
+    Данный метод принимает continuation Интерфейс - который неявно принимают все suspend функции
+    В нем есть открытый api - это 2 методы и одно поле = context , resume, resumeWith
      */
 
 
@@ -43,6 +43,11 @@ class BaseSample {
     }
 
 
+    /**
+    В корутинах есть специальный диспетчер который позволяет переключаться между потоками
+    4 константы содержащие в себе
+     */
+
 
     fun testDispatchers() {
 
@@ -52,6 +57,7 @@ class BaseSample {
         val d = Dispatchers.Unconfined
 
     }
+
 
 
 }
