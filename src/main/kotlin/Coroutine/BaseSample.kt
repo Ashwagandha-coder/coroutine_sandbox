@@ -1,5 +1,6 @@
 package Coroutine
 
+import kotlinx.coroutines.Dispatchers
 import kotlin.coroutines.Continuation
 import kotlin.coroutines.resume
 
@@ -38,6 +39,17 @@ class BaseSample {
         continuation.context
         continuation.resume(Any())
 //        continuation.resumeWith(Any)
+
+    }
+
+
+
+    fun testDispatchers() {
+
+        val a = Dispatchers.IO
+        val b = Dispatchers.Main
+        val c = Dispatchers.Default
+        val d = Dispatchers.Unconfined
 
     }
 
