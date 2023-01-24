@@ -24,6 +24,12 @@ class Collect {
         val q = mapOf<Any, Int>()
         val p = mutableMapOf<Any, Int>()
 
+        /*
+        set
+         */
+
+        val w = setOf<Any>()
+
 
 
 
