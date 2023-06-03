@@ -1,6 +1,6 @@
-# Многопоточность в Java/Kotlin
+# Multithreading in Java/Kotlin
 
-## Работа с многопоточностью в языках Java/Kotlin
+## Work with tech
 
 - Java Thread
 - Kotlin Coroutine
