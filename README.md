@@ -4,6 +4,9 @@
 This repo is sample in multithreading theme
 Base sample
 
+## Status
+Deprecated
+
 ## Work with tech
 
 - Java Thread
