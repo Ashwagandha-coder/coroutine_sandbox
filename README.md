@@ -10,7 +10,6 @@ Deprecated
 ## Work with tech
 
 - Java Thread
-- Kotlin Coroutine
 - JMM
 - Process work
 
